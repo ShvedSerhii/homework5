@@ -76,7 +76,7 @@ li {
         }
       }
       &.app__list-item--done {
-        background-color: #8fc579;
+        background-color: #868686;
         .app__list-text {
           text-decoration: line-through;
         }
@@ -89,7 +89,7 @@ li {
       padding: $base-gutter $base-gutter * 2;
     }
     &-remove {
-      border: 1px solid red;
+      border: 1px solid black;
       border-radius: 50%;
       cursor: pointer;
       height: $base-gutter * 4;
@@ -104,7 +104,7 @@ li {
       &:before,
       &:after {
         content: "";
-        background-color: red;
+        background-color: black;
         display: block;
         left: 50%;
         position: absolute;
